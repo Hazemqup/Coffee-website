@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="icon" type="image/png" href="1.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+
+        <!--the header section-->
+        <header class="header">
+            <div class="logo">
+                <img src="1.png" alt="coffee logo">
+            </div>
+            <nav class="nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="products.html">Products</a>
+                <a href="#contact" class="current" aria-current="contact">Contact</a>
+                <a href="events.html">Events</a>
+            </nav>
+        </header>
+
+        <!--main content-->
+        <main class="main">
+            <section class="hero">
+                <h1>Contact Us</h1>
+                <p>please contact us for any support or feedback.</p>
+            </section>
+
+
+            <!--the contact form section-->
+            <section class="content">
+                <article>
+                    <section>
+                        <h2>Get in touch</h2>
+                        <form action="submit" method="post" aria-label="contact form">
+                            <div>
+                                <label for="name">Full name</label>
+                                <input type="text" id="name" name="name" required aria-required="true">
+                            </div>
+
+                            <div>
+                                <label for="email">Your Email address:</label>
+                                <input type="email" id="email" name="email" required aria-required="true">
+                            </div>
+
+                            <div>
+                                <label for="phone">Your Phone number</label>
+                                <input type="tel" id="phone number" name="phone number">
+                            </div>
+                            
+                            <div>
+                                <label for="message">your message here:</label>
+                                <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+                            </div>
+
+                            <!--the submit button-->
+                            <button type="submit">Send</button>
+                        </form>
+                    </section>
+                </article>
+            </section>
+        </main>
+
+
+
+        <aside class="sidebar">
+            <img src="BackgroundCoffee.png" alt="sidebar coffee photo">
+        </aside>
+
+        <footer class="footer">
+            <p>&copy; 2024 Mug & Mingle. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
